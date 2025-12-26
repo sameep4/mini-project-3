@@ -1,0 +1,512 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+  height: 100%;
+  width: 100%;
+
+
+}
+
+#header{
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    
+    
+}
+
+.text{
+    color: darkblue;
+    margin: 20px;
+    font-weight: bolder;
+    
+
+}
+.text:hover{
+    color: aqua;
+}
+#fakeheader{
+    height: 10%;
+    width: 100%;
+    background-color: white;
+}
+#header2{
+    height: 5%;
+    width: 100%;
+    background-color: darkblue;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+    
+}
+#page1{
+
+ 
+    
+    height: 90%;
+    width: 100%;
+    background-color: white;
+    color: darkblue;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image:
+      linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)),
+      url("https://www.salesforce.com/content/dam/web/en_us/www/images/lets-get-digital-zoom-background-cnx21-final-zoom-background.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#page2{
+    height: 90%;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     background-image:
+      linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)),
+      url("https://www.salesforce.com/content/dam/web/en_us/www/images/lets-get-digital-zoom-background-cnx21-final-zoom-background.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#image1{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    margin: 5px;
+    object-fit: cover;
+}
+
+#details{
+    text-align: center;
+    
+    padding: 5px;
+    color: darkblue;
+  
+   
+    
+}
+#details:hover{
+    background-color: lightblue;
+}
+#firsticon{
+   margin: 10px;
+   margin-left: 10px;
+   padding: 10px;
+ 
+}
+#icon2{
+    margin: 10px;
+    padding: 10px;
+}
+#icon2:hover{
+    background-color: lightblue;
+}
+#firsticon:hover{
+    background-color: lightblue;
+}
+#new:hover{
+  
+    background-color: lightblue;
+
+}
+#login:hover{
+    background-color: lightblue;
+}
+#login{
+    margin: 20px;
+    border-radius: 50px;
+    padding: 10px;
+}
+#try{
+    padding: 5px 10px;
+    
+ 
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   
+}
+#start{
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#start:hover{
+    background-color: darkblue;
+
+}
+#watchdemo:hover{
+  background-color: darkblue;
+}
+#main3{
+    margin-top: 20px;
+  
+
+}
+#main4{
+  padding: 10px;
+    border: 50px;
+    margin-left: 60px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#main4:hover{
+    background-color: aqua;
+}
+#new{
+    padding: 10px;
+    
+}
+#try:hover{
+    background-color: darkred;
+}
+#trial{
+    padding: 5px;
+    border-style: solid;
+    width: 150px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: white;
+    background-color: darkblue;
+  
+}
+#trial:hover{
+    background-color: black;
+
+}
+#last{
+   text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: darkblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: medium;
+  font-weight: bolder;
+  padding-top: -50px;
+}
+#main1{
+   width: 100%;
+   height: 76%;
+ 
+   margin-top: 50px;
+   display: flex;
+  
+  
+}
+#box1{
+    height: 80%;
+    width: 50%;
+    background-color: white;
+    background-image:
+      linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)),
+      url("https://www.salesforce.com/content/dam/web/en_us/www/images/lets-get-digital-zoom-background-cnx21-final-zoom-background.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#box2{
+   height: 80%;
+   width: 50%;
+   background-color: white;
+
+   display: flex;
+   
+   align-items: center;
+   text-align: center;
+   background-image:
+      linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)),
+      url("https://www.salesforce.com/content/dam/web/en_us/www/images/lets-get-digital-zoom-background-cnx21-final-zoom-background.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+ 
+}
+#box1 h1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-left: 40px;
+}
+#box1 p{
+    padding-left: 40px;
+}
+#minibox{
+    display: flex;
+    padding-left: 30px;
+    margin-top: 30px;
+  
+}
+#box23{
+  margin: 10px;
+  padding: 10px 20px;
+  color: white;
+  background-color: darkblue;
+  border-radius: 5px;
+}
+#box24{
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px 20px;
+  color: darkblue;
+  border: 1px solid lightblue;
+}
+#box23:hover{
+    background-color: lightblue;
+    color: black;
+    border-color: black;
+}
+#box24:hover{
+    background-color: lightblue;
+    color: black;
+}
+#sanket{
+ height: 100%;
+ width: 100%;
+}
+#card{
+    margin: 50px;
+    height: 70%;
+    width: 100%;
+    background-color: black;
+
+
+    
+}
+
+#card1{
+  height: 300px;
+  width: 200px;
+  border-radius: 10px;
+  padding: 10px;
+  border-style: solid;
+  border-width: 10px;
+  background-color: rgb(253, 253, 253);
+  background-image:
+      linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)),
+      url("https://www.salesforce.com/content/dam/web/en_us/www/images/lets-get-digital-zoom-background-cnx21-final-zoom-background.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+
+  transition: all 0.3s ease;
+
+}
+
+#card1:hover{
+    background-color: lightblue;
+    color: black;
+}
+#card2:hover{
+    background-color: lightblue;
+    color: black;
+}
+#card3:hover{
+    background-color: lightblue;
+    color: black;
+}
+#card4:hover{
+    background-color: lightblue;
+    color: black;
+}
+#card2{
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+     border-style: solid;
+  border-width: 10px;
+  background-color: white;
+  background-image:
+      linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)),
+      url("https://www.salesforce.com/content/dam/web/en_us/www/images/lets-get-digital-zoom-background-cnx21-final-zoom-background.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+
+  transition: all 0.3s ease;
+}
+#card3{
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+     border-style: solid;
+  border-width: 10px;
+  background-color: white;
+  background-image:
+      linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)),
+      url("https://www.salesforce.com/content/dam/web/en_us/www/images/lets-get-digital-zoom-background-cnx21-final-zoom-background.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+
+  transition: all 0.3s ease;
+}
+
+
+#card4{
+  height: 300px;
+  width: 200px;
+  border-radius: 10px;
+  padding: 10px;
+  border-style: solid;
+  border-width: 10px;
+  background-color: white;
+       background-image:
+      linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)),
+      url("https://www.salesforce.com/content/dam/web/en_us/www/images/lets-get-digital-zoom-background-cnx21-final-zoom-background.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+
+  transition: all 0.3s ease;
+}
+#box2:hover{
+    background-color: lightblue;
+}
+#last:hover{
+    color: black;
+    
+}
+#some{
+     justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding-bottom: 50px ;
+}
+#viewproducts{
+    border-style: solid;
+    border-color: darkblue;
+    background-color: white;
+    color: darkblue;
+    width: 150px;
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    background-image:
+      linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)),
+      url("https://www.salesforce.com/content/dam/web/en_us/www/images/lets-get-digital-zoom-background-cnx21-final-zoom-background.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+ }
+#viewproducts:hover{
+    color: black;
+    border-color: black;
+    background-color: lightblue;
+}
+#card1 h4{
+    margin-top: 100px;
+    margin-bottom: 5px;
+}
+
+#card1 h5{
+    padding-top: 50px;
+    color: darkcyan;
+   
+}
+#card1 h5:hover{
+    color:black;
+}
+
+
+#card2 h5{
+     padding-top: 50px;
+    color: darkcyan;
+   
+
+}
+
+
+
+
+#card3 h5{
+ padding-top: 50px;
+    color: darkcyan;
+   
+}
+
+
+#card4 h5{
+     padding-top: 50px;
+    color: darkcyan;
+   
+
+}
+#card2 h5:hover{
+    color:black;
+}
+#card3 h5:hover{
+    color:black;
+}
+#card4 h5:hover{
+    color:black;
+}
+#card2 h4{
+    margin-top: 100px;
+    margin-bottom: 5px;
+}
+#card3 h4{
+    margin-top: 100px;
+    margin-bottom: 5px;
+}
+#card4 h4{
+    margin-top: 100px;
+    margin-bottom: 5px;
+}
+
